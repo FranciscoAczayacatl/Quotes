@@ -1,0 +1,36 @@
+*,*:hover{
+  margin: 0;
+  padding: 0;
+}
+.App{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  background-color: #FFFFFF;
+  padding: 50px;
+}
+.card-p{
+  display: flex;
+}
+.card-b{
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+}
+.button{
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.button button{
+  width: 3vw;
+  height:3vw;
+  border: 0;
+  border-radius: 100%;
+  color: #FFFFFF;
+}
